@@ -8,4 +8,6 @@ color:white;
 
 }
 
-.test{}
+.test{
+  color:inherit;
+}
