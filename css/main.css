@@ -11,4 +11,5 @@ color:white;
 .test{
   color:inherit;
   text-align: right;
+  display: run-in;
 }
