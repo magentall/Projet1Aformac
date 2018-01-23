@@ -4,6 +4,13 @@ echo"easy";
 $a = array(1, 2, array("a", "b", "c"));
 
 echo "<pre>".print_r($a,true)."</pre>";
+
+
+$output = shell_exec('ls -lart');
+$output2 = shell_exec('pwd');
+echo "<pre>$output</pre>";
+echo "<pre>$output2</pre>";
+
  ?>
 
 
